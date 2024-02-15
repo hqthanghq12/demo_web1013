@@ -1,0 +1,144 @@
+body{
+    font-family: Tahoma;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    width: 980px;
+    height: 100px;
+    background-color: #f95512;
+    margin: 0 auto;
+    position: relative;
+}
+.head img{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.form-group{
+    position: absolute;
+    top: 40px;
+    right: 5px;
+}
+#input-search{
+    width: 200px;
+    height: 20px;
+    border: 1px solid #cccccc;
+    margin-right: 20px;
+}
+#input-bnt{
+    width: 90px;
+    height: 25px;
+    border: 1px solid #cccccc;
+    color: white;
+    background-color: #272f54;
+}
+.nav{
+    width: 980px;
+    height: 40px;
+    background-color: #ffbb6b;
+    margin: 0 auto;
+}
+.list-item{
+    padding: 0 100px;
+    margin: 0;
+}
+.list-item>li{
+    float: left;
+    padding-left: 45px;
+    line-height: 40px;
+}
+.list-item>li>a{
+    color: #26190a;
+}
+.list-item>li>a:hover{
+    text-decoration: underline;
+}
+.header{
+    width: 980px;
+    height: 450px;
+    margin: 10px auto;
+}
+.content{
+    width: 980px;
+    height: 490px;
+    margin: 0 auto;
+}
+.title{
+    margin: 25px 0 30px 0;
+    color: #272f54;
+}
+.content-sub1{
+    width: 305px;
+    height: 430px;
+    border: 1px solid #f95512;
+    float: left;
+}
+.content-sub1>img{
+    margin: 15px 25px;
+}
+.content-sub1>h4{
+    margin: 0;
+    margin-left: 25px;
+}
+.content-sub1>h4>a{
+    color: #ad3f00;
+}
+.content-sub1>h4>a:hover{
+    text-decoration: underline;
+}
+.content-sub1>p{
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 13px;
+}
+.content-sub2{
+    width: 645px;
+    height: 430px;
+    float: left;
+    margin-left: 27px;
+    margin-bottom: 20px;
+}
+.content-items{
+    width: 100%;
+    height: 205px;
+    margin: 0;
+    border: 1px solid #f95512;
+    margin-bottom: 20px;
+}
+.content-items>img{
+    margin: 15px 20px;
+    float: left;
+}
+.content-img{
+    width: 270px;
+    height: 135px;
+    float: left;
+}
+.content-img>h4>a{
+    color: #ad3f00;
+}
+.content-img>h4>a:hover{
+    text-decoration: underline;
+}
+.content-img>p{
+    font-size: 13px;
+}
+.footer{
+    margin: 0 auto;
+    clear: both;
+    width: 980px;
+    height: 80px;
+    background-color: #f95512;
+    text-align: center;
+}
+.footer>span{
+    line-height: 80px;
+    color: white;
+}
